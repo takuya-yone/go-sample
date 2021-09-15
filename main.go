@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/takuya-yone/sample-go/subpkg"
+
+	"github.com/takuya-yone/go-sample/subpkg"
 )
 
 func main() {
