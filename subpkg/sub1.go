@@ -1,9 +1,12 @@
 package subpkg
 
 import (
-   "rsc.io/quote/v3"
+	"strconv"
 )
 
 func Hello() (str string) {
-   return quote.HelloV3()
+	myMap := map[string]int{"a": 1, "b": 2}
+	// fmt.Print(myMap["a"])
+	// return quote.HelloV3()
+	return strconv.Itoa(myMap["a"])
 }

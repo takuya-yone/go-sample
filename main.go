@@ -1,13 +1,14 @@
 package main
 
 import (
-	"fmt"
+	// "go-sample/controllers"
 
-	"github.com/takuya-yone/go-sample/subpkg"
+	"github.com/takuya-yone/go-sample/controllers"
 )
 
 func main() {
-	fmt.Println(subpkg.Hello())
-	fmt.Println(subpkg.Golang())
-	fmt.Println(Goodbye())
+	// fmt.Println(subpkg.Hello())
+	// fmt.Println(subpkg.Golang())
+	// fmt.Println(Goodbye())
+	controllers.StartWebServer()
 }
